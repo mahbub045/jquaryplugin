@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/tiltedpage-scroll.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/animsition.min.css">
+
+    <!-- <link rel="stylesheet"  href="css/reset.min.css" /> -->
+    <!-- <link rel="stylesheet"  href="css/webfonts.css"  /> -->
+    <!-- <link rel="stylesheet"  href="css/demo.css"      /> -->
+
+    <title>Front_End_Template</title>
+</head>
+<body>
+
+    <div class="animsition">
+        <a href="index.html" class="animsition-link" data-animsition-out-class="fade-out-right"data-animsition-out-duration="2000">animsition link 1</a>
+        <a href="contact.html" class="animsition-link" data-animsition-out-class="rotate-out"data-animsition-out-duration="500">animsition link 2</a>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.curvedtext.js"></script>
+    <script src="js/demo.js"></script>
+    <script src="js/animsition.min.js"></script>
+
+    <script src="js/jquery.tiltedpage-scroll.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        $(".main").tiltedpage_scroll({
+    sectionContainer: "> section",     // In case you don't want to use <section> tag, you can define your won CSS selector here
+    angle: 50,                         // You can define the angle of the tilted section here. Change this to false if you want to disable the tilted effect. The default value is 50 degrees.
+    opacity: true,                     // You can toggle the opacity effect with this option. The default value is true
+    scale: true,                       // You can toggle the scaling effect here as well. The default value is true.
+    outAnimation: true                 // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
+});
+</script>
+
+
+
+
+</body>
+</html>
