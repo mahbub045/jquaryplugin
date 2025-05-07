@@ -1,2 +1,2 @@
 # jquaryplugin
-https://mahbub099.github.io/jquaryplugin/
+https://mahbub045.github.io/jquaryplugin/
